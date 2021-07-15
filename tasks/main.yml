@@ -1,0 +1,8 @@
+---
+
+- name: delete file "{{ remove_file_path }}"
+  file:
+    path: "{{ remove_file_path }}"
+    state: "absent"
+
+...

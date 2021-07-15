@@ -1,0 +1,28 @@
+---
+galaxy_info:
+  author: Dmitrii Kashin
+  description: removes file by path
+  role_name: remove_file
+  license: MIT
+
+  min_ansible_version: 2.4
+
+  platforms:
+    - name: Ubuntu
+      versions:
+        - all
+    - name: Debian
+      versions:
+        - all
+    - name: EL
+      versions:
+        - all
+    - name: Fedora
+      versions:
+        - all
+
+  galaxy_tags:
+    - remove_file
+
+allow_duplicates: true
+dependencies: []
